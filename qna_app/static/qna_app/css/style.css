@@ -1,0 +1,58 @@
+
+.jumbotron{
+    background-color: whitesmoke;
+    padding: 20px 0;
+}
+
+h1{
+    color: black !important;
+    margin-left: 15px;
+}
+
+.question{
+    color: crimson;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.programs a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.programs p{
+    margin: 5px 40px;
+}
+
+.solution{
+    color: green;
+}
+
+.solution:hover{
+    color: black;
+}
+
+
+/* Answer */
+.header h2{
+    color: #010100;
+    margin: 10px;
+}
+
+
+.header p{
+    color: green !important;
+    margin-left: 25px;
+}
+
+.answer p{
+  
+  color: red !important;
+  
+}
+.answer{
+    padding: 5px 10px;
+    background-color: #010100;
+    margin: 5px 5px;
+}
+

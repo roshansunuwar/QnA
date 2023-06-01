@@ -1,0 +1,16 @@
+{% extends 'qna_app/home.html'%}
+
+{% block body_block %}
+    <div class="jumbotron">
+        <div class="header">
+            <h2>{{ questions.question_title }}</h2>
+            <p>{{ questions.question_text | safe }}</p>
+        </div>
+        <h3>Solutions:</h3>
+        <div class="answer">
+            {% for answer in questions.answers_set.all %}
+            <p>{{ answer.solution | safe }}</p>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
