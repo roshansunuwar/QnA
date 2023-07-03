@@ -1,7 +1,10 @@
+.image{
+    text-align: center;
+}
 
-.jumbotron{
-    background-color: whitesmoke;
-    padding: 20px 0;
+.image img{
+    height: 65px;
+    margin: 25px 0;
 }
 
 h1{
@@ -9,27 +12,15 @@ h1{
     margin-left: 15px;
 }
 
-.question{
+.quest h6{
     color: crimson;
     font-size: 20px;
-    padding: 15px 0;
 }
 
-.programs a{
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.programs p{
-    margin: 5px 40px;
-}
-
-.solution{
-    color: green;
-}
-
-.solution:hover{
-    color: black;
+.quest{
+    border: black solid 2px;
+    padding: 10px 12px ;
+    margin: 10px 0;
 }
 
 
