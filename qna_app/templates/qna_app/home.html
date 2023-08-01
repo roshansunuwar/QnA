@@ -1,0 +1,45 @@
+{% extends 'qna_app/base.html' %}
+
+{% block title %}Question{% endblock %}
+{% block home_active %}active{% endblock %}
+{% block body_block %}
+{% load static %}
+  <div class="container">
+    <!-- !Introduction Section Starts -->
+    <div class="heading">
+      <div class="image">
+        <img src="{% static 'qna_app/images/python.png' %}" alt="" srcset="">
+      </div>
+
+      <div class="intro">
+        <p>
+          Python is high-level, interpreted programming language that is
+          designed to be easy to read and write. It was created by Guido van
+          Rossum and first released in 1991. Python is an open-soruce language
+          and is widely used in various domains such as web development, data
+          science, machine learning, artifical intelligence and many more.
+        </p>
+        <p>
+          Python also has a simple and clean syntax, which makes it easy to
+          learn and use for beginners. It is also a very powerful language
+          with vast array of libraries and frameworks that make it capable of
+          handling its complex tasks.
+        </p>
+      </div>
+    </div>
+    <!-- !Introduction Section Ends--> 
+    <!-- !Question Section Starts-->
+    <div class="programs">
+      {% for question in questions %}
+      <div class="quest">
+        <a href="{% url 'answers' question.id %}">
+          <h6>{{ question.id }}. {{ question.question_title }}</h6>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- !Question Section Ends-->
+  </div>
+{% endblock %}
+
+

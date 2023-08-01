@@ -1,0 +1,23 @@
+{% extends 'qna_app/base.html' %}
+{% block title %}Answer{% endblock %}
+{% block body_block %}
+<div class="container">
+    <div class="header">
+        <h2>{{ questions.question_title }}</h2>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <p>{{ questions.question_text | safe }}</p>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                
+                <div class="answer">
+                    <h3 class="text-success">SOLUTION:</h3>
+                    {% for answer in questions.answers_set.all %}
+                    <p>{{ answer.solution | safe }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

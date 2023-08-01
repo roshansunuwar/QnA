@@ -1,0 +1,159 @@
+.navbar{
+    background-color: #010100;
+}
+.nav-item a{
+    color: #ffdc4e !important;
+}
+
+.nav-item a.active{
+    color: #3f80b3 !important;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: #3f80b3 !important;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    height: 65px;
+    margin: 25px 0;
+}
+
+h1 {
+    color: black !important;
+    margin-left: 15px;
+}
+
+.quest a, .quest h6 {
+    color: crimson;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.quest {
+    border: black solid 2px;
+    padding: 10px 12px;
+    margin: 10px 0;
+    
+}
+
+.quest h6:hover{
+    color: #3f80b3;
+}
+
+
+/* Answer */
+
+.header{
+    border: #ffdc4e 2px solid;
+    padding: auto;
+}
+
+.header h2 {
+    color: red;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.header p {
+    color: green !important;
+    margin-left: 25px;
+}
+
+.answer p {
+    color: red !important;
+
+}
+
+.answer {
+    padding: 5px 10px;
+    background-color: #010100;
+    margin: 50px 10px;
+}
+
+.outer-footer{
+    background-color: #010100;
+    padding: 15px 15px;
+    margin-top: 50px;
+}
+.footer{
+    border:  solid 2px #ffdc4e;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.icons i{
+    margin: 10px 20px;
+    font-size: 25px;
+    color: #3f80b3;
+}
+
+.icons i:hover{
+    color: #ffdc4e;
+}
+
+.policy{
+    display: flex;
+    justify-content: center;
+}
+
+.policy a{
+    padding: 10px 20px; 
+    color: #3f80b3;
+    text-decoration: none;
+}
+
+.policy a:hover{
+    color: #ffdc4e;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+}
+
+.copy p{
+    color: #3f80b3;
+}
+
+
+/* * CONTACT US CSS */
+.contact{
+    margin: 250px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #3f80b3;
+}
+
+.contact h1{
+    color: #ffdc4e !important;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+
+/* * ABOUT US CSS */
+.about{
+    margin: 250px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #3f80b3;
+}
+
+.about h1{
+    color: #ffdc4e !important;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
